@@ -2,14 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Favicon - Ensure it's in the build folder or use relative paths -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Plant</title>
-    <meta name="keywords" content="Vite, React, plants, gardening, Air Purifying Plants, Aromatic Fragrant Plants, Insect Repellent Plants, Medicinal Plants, Low Maintenance Plants" /> <!-- Add meta keywords here -->
-
+    <meta name="keywords" content="Vite, React, plants, gardening, Air Purifying Plants, Aromatic Fragrant Plants, Insect Repellent Plants, Medicinal Plants, Low Maintenance Plants" />
+    <!-- Meta description (for SEO) -->
+    <meta name="description" content="E-Plant is your go-to place for air purifying, aromatic, medicinal, insect repellent, and low-maintenance plants." />
+    <!-- Add base tag for GitHub Pages if necessary -->
+    <base href="/repository-name/" /> 
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- Correct script path (use relative path after build) -->
+    <script type="module" src="/static/js/main.[hash].js"></script>
   </body>
 </html>
